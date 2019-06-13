@@ -36,7 +36,7 @@ App developed using Java 1.8 and built using Gradle.
 gradlew clean run -PrunArgs="[94133,94133] [94200,94299] [94600,94699]"
 ```
 
-####Running all tests
+#### Running all tests
 ```
 gradlew test
 ```
