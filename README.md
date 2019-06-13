@@ -1,6 +1,7 @@
 # Williams-Sonoma, Inc. Coding Challenge
 
 Version: 1.0.0-SNAPSHOT
+
 Author: Shankar Mayya
 
 Date: 06/122019
