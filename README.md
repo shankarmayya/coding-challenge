@@ -41,4 +41,4 @@ gradle clean run -PrunArgs="[94133,94133] [94200,94299] [94600,94699]"
 gradle test
 ```
 
-test results can be found that this location `${project dir}/build/test-results/`
+test results can be found that this location `${project dir}/build/test-results/` and reports can be found at `${project dir}/build/reports/tests/test/`
