@@ -33,12 +33,12 @@ App developed using Java 1.8 and built using Gradle.
    - import as existing Gradle project, before running Main application go to Run Configuration -> under Program Arguments specify inputs.
 1. Running through Gradle command [Gradle distribution is part of codebase]
 ```
-gradle clean run -PrunArgs="[94133,94133] [94200,94299] [94600,94699]"
+gradlew clean run -PrunArgs="[94133,94133] [94200,94299] [94600,94699]"
 ```
 
 ####Running all tests
 ```
-gradle test
+gradlew test
 ```
 
 test results can be found that this location `${project dir}/build/test-results/` and reports can be found at
