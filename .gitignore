@@ -1,0 +1,17 @@
+.settings/
+.vscode/
+target/
+bin/
+.idea/
+*.iml
+.sts4-cache/
+.classpath
+.project
+
+# Ignore Mac DS_Store files
+*.DS_Store
+.DS_Store
+
+out/
+.gradle/
+build/
