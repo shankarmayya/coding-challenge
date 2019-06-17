@@ -24,9 +24,14 @@ public class InputValidation {
         {
             if(!Pattern.matches(REGX,range))
             {
-                throw new ZipRestrictionException("Invalid input");
+                throw new ZipRestrictionException("Invalid input,Please enter 5 digit zipcode");
             }
             //System.out.println("ZipCode range:"+range);
+            String zipCodeSplit[] = range.replace("[", "").replace("]", "").split(",");
+            if(Integer.parseInt(zipCodeSplit[0]) > Integer.parseInt(zipCodeSplit[1]) )
+            {
+                throw new ZipRestrictionException("Invalid bounds, lower bound should be less than upper bound");
+            }
         }
     }
 

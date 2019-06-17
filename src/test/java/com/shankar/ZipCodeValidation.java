@@ -37,5 +37,16 @@ public class ZipCodeValidation {
             System.out.println(e);
         }
     }
+
+    @Test
+    public void testInvalidBoundZipInputValidation() throws ZipRestrictionException {
+        try {
+            InputValidation.validateInput("[95670,95669]".split(" "));
+        }
+        catch (ZipRestrictionException e) {
+            assertEquals("Invalid bounds, lower bound should be less than upper bound", e.getMessage());
+            System.out.println(e);
+        }
+    }
 }
 
